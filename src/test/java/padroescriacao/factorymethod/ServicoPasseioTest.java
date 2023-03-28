@@ -8,7 +8,7 @@ class ServicoPasseioTest {
 
     @Test
     void executarPasseio() {
-        IServico servico = ServicoFactory.obterServico("PacotePasseio");
+        IServico servico = ServicoFactory.obterServico("PacotePaseio");
         assertEquals("Passeio contratado", servico.executar());
     }
 
