@@ -1,6 +1,6 @@
 package padroescriacao.factorymethod;
 
-public class ServicoAluguelCarro implements IServico {
+public class ServicoAluguelCarro  {
 
     public String executar() {
         return "Aluguel efetivado";
